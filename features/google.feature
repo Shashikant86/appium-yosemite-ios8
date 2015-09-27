@@ -1,4 +1,4 @@
-Feature: Google Search to explore poltergiest
+Feature: Google Search to explore Appium on iOS and Safari
 
 
 Scenario: View home page

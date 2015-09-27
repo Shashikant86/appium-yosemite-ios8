@@ -101,7 +101,7 @@ Capybara::Selenium::Driver.new(app,
 end
 
 Capybara.register_driver :appium_ios do |app|
-    capabilities = {:platformName => 'iOS', :platformVersion => '8.0', :deviceName=> 'iPhone Simulator', :browserName => 'Safari', :version => '6.0'}
+    capabilities = {:platformName => 'iOS', :platformVersion => '8.1', :deviceName=> 'iPhone Simulator', :browsername => 'Safari', :uuid => 'D4B73EF7-E0D2-4F79-A930-52779BDE39CB'}
 Capybara::Selenium::Driver.new(app,
                                  :browser => :remote,
                                  :desired_capabilities => capabilities,
